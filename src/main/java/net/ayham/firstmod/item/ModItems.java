@@ -16,7 +16,6 @@ public class ModItems {
     public static final Item AQUA_NUGGET = registerItem("aqua_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.ESSENCE)));
 
-
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FirstMod.MOD_ID, name), item);
     }

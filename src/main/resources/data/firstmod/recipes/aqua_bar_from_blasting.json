@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "firstmod:aqua_essence"
+  },
+  "result": "firstmod:aqua_bar",
+  "experience": 4.0,
+  "cookingtime": 100
+}

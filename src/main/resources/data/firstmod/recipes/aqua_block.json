@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "firstmod:aqua_bar"
+    }
+  },
+  "result": {
+    "item": "firstmod:physical_essence"
+  }
+}
