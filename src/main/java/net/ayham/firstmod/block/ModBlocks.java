@@ -17,8 +17,13 @@ public class ModBlocks {
 
     public static final Block PHYSICAL_ESSENCE = registerBlock("physical_essence",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.ESSENCE);
+
     public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
             new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.ESSENCE);
+
+    public static final Block ASPHALT_ORE = registerBlock("asphalt_ore",
+            new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(5.5f).requiresTool()), ModItemGroup.ESSENCE);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return  Registry.register(Registry.BLOCK, new Identifier(FirstMod.MOD_ID, name), block);

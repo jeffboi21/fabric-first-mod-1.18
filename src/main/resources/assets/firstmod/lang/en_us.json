@@ -1,10 +1,13 @@
 {
-  "item.firstmod.aqua_essence": "Aqua Essence",
+  "block.firstmod.asphalt_ore": "Asphalt Ore",
+  "block.firstmod.physical_essence": "Physical Essence",
+  "block.firstmod.speedy_block": "Speedy Block",
   "item.firstmod.aqua_bar": "Aqua Bar",
-  "item.firstmod.dowsing_rod": "Dowsing Rod",
+  "item.firstmod.raw_asphalt": "Raw Asphalt",
+  "item.firstmod.aqua_essence": "Aqua Essence",
   "item.firstmod.aqua_nugget": "Aqua Nugget",
+  "item.firstmod.dowsing_rod": "Dowsing Rod",
   "item.firstmod.dowsing_rod.no_valuables": "No Valuables Found",
   "itemGroup.firstmod.essence": "Essence",
-  "block.firstmod.physical_essence": "Physical Essence",
-  "block.firstmod.speedy_block": "Speedy Block"
+
 }

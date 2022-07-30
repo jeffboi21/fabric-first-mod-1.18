@@ -17,6 +17,9 @@ public class ModItems {
     public static final Item AQUA_NUGGET = registerItem("aqua_nugget",
             new Item(new FabricItemSettings().group(ModItemGroup.ESSENCE)));
 
+    public static final Item RAW_ASPHALT = registerItem("raw_asphalt",
+            new Item(new FabricItemSettings().group(ModItemGroup.ESSENCE)));
+
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
             new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.ESSENCE).maxDamage(16)));
 
