@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "firstmod:asphalt_ore"
+  },
+  "result": "firstmod:raw_asphalt",
+  "experience": 4.0,
+  "cookingtime": 200
+}

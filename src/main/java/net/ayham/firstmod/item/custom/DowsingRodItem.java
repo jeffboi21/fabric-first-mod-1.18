@@ -34,7 +34,7 @@ public class DowsingRodItem extends Item {
             }
 
             if(!foundBlock) {
-                player.sendMessage(new TranslatableText("item.tutorialmod.dowsing_rod.no_valuables"), false);
+                player.sendMessage(new TranslatableText("item.firstmod.dowsing_rod.no_valuables"), false);
             }
         }
 
