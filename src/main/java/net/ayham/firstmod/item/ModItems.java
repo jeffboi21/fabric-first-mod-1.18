@@ -18,7 +18,7 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ESSENCE)));
 
     public static final Item DOWSING_ROD = registerItem("dowsing_rod",
-            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.ESSENCE)));
+            new DowsingRodItem(new FabricItemSettings().group(ModItemGroup.ESSENCE).maxDamage(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(FirstMod.MOD_ID, name), item);
