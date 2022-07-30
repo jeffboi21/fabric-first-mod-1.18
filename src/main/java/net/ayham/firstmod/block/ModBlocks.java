@@ -1,6 +1,7 @@
 package net.ayham.firstmod.block;
 
 import net.ayham.firstmod.FirstMod;
+import net.ayham.firstmod.block.custom.SpeedyBlock;
 import net.ayham.firstmod.item.ModItemGroup;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -16,7 +17,8 @@ public class ModBlocks {
 
     public static final Block PHYSICAL_ESSENCE = registerBlock("physical_essence",
             new Block(FabricBlockSettings.of(Material.METAL).strength(6f).requiresTool()), ModItemGroup.ESSENCE);
-
+    public static final Block SPEEDY_BLOCK = registerBlock("speedy_block",
+            new SpeedyBlock(FabricBlockSettings.of(Material.METAL).strength(4.5f).requiresTool()), ModItemGroup.ESSENCE);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return  Registry.register(Registry.BLOCK, new Identifier(FirstMod.MOD_ID, name), block);
